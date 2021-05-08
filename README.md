@@ -1,5 +1,4 @@
-
-五一闲的蛋疼，就想写个脚本来实现自动体温打卡功能
+五一闲的蛋疼，就想写个脚本来实现自动体温打卡功能（仅用于学习！！！）
 
 
 
@@ -20,11 +19,8 @@
 
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210508121249913.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2hhb19xaW8=,size_16,color_FFFFFF,t_70)
-
-
-首先，咱们先点击 “平台账号登录”按钮接着就会弹出下面的登录框
-
-
+首先，咱们先点击 “平台账号登录”按钮
+接着就会弹出下面的登录框
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210508121210433.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2hhb19xaW8=,size_16,color_FFFFFF,t_70)
 
 ```python
@@ -57,10 +53,13 @@ loginbtn.click()  # 点击登录按钮
 ```
 
 完成上述操作后弹出一个顶象验证码
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20210508123011104.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2hhb19xaW8=,size_16,color_FFFFFF,t_70)
+![](https://img-blog.csdnimg.cn/20210508165100398.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2hhb19xaW8=,size_16,color_FFFFFF,t_70)
+
 ## 第一步 ：获取要匹配的图片和验证码图片
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20210508123133727.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2hhb19xaW8=,size_16,color_FFFFFF,t_70)
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20210508123321693.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2hhb19xaW8=,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20210508165132249.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2hhb19xaW8=,size_16,color_FFFFFF,t_70)
+
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20210508165149848.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2hhb19xaW8=,size_16,color_FFFFFF,t_70)
+
 
 ```python
      def get_img(self,browser):
@@ -121,17 +120,22 @@ loginbtn.click()  # 点击登录按钮
 ## **第二步：接着将front.png进行 透明化处理 阈值处理 ，梯度处理，Canny边缘检测**
 
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/2021050815200598.png)  
+![在这里插入图片描述](https://img-blog.csdnimg.cn/2021050816522955.png)
+  
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20210508165243530.png)
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20210508152041180.png)
-![在这里插入图片描述](https://img-blog.csdnimg.cn/2021050815205053.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20210508165251528.png)
+
+
 
 
 
 ## **将bg.png 进行梯度处理 ， Canny边缘检测**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20210508152109809.png)
-![](https://img-blog.csdnimg.cn/20210508152122545.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20210508165302951.png)
+
+![在这里插入图片描述](https://img-blog.csdnimg.cn/2021050816531167.png)
+
 
 
 ```python
@@ -207,9 +211,11 @@ loginbtn.click()  # 点击登录按钮
 
 ```
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20210508155809839.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20210508165324743.png)
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20210508155642980.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2hhb19xaW8=,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20210508165734245.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2hhb19xaW8=,size_16,color_FFFFFF,t_70)
+
+
 
 ## **第四步：得到位置后要模拟人移动滑块的速度 先加速后减速**
 
@@ -266,10 +272,12 @@ loginbtn.click()  # 点击登录按钮
 
 
 
-这样的方法匹配的准确率大概是80%，不是很高（我太菜了，如果还有更好的方法可以与我交流）
+**这样的方法匹配的准确率大概是80%，不是很高（我太菜了，如果还有更好的方法可以与我交流）**
 
 
-还有另一种方法是js逆向（网上有教程），这个方法难点就在逆向，如果能破解出来，就不用用到那么多图片处理，直接模板配就完事了，而且匹配准确率几乎100%  只是顶象的加密方法两天换一次........（已经麻了）
+
+
+**还有另一种方法是js逆向（网上有教程），这个方法难点就在逆向，如果能破解出来，就不用用到那么多图片处理，直接模板配就完事了，而且匹配准确率几乎100%  只是顶象的加密方法两天换一次........（已经麻了）**
 
 
 ## 附上源码：[记得点小星星哦！！](https://github.com/cyhccc/opencv)
@@ -282,5 +290,12 @@ loginbtn.click()  # 点击登录按钮
 ## 后续：
   **记录下第一次发表博客！！！**
   
-  
-     
+  **顶象验证码的破解真的太难了，他还会检测出是否是自动测试化工具（换了pyppeteer，加了很多绕过检测函数，如下图），还有ip定位（用代理也没用）**
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20210508170221736.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2hhb19xaW8=,size_16,color_FFFFFF,t_70)
+ **一但检测到webDriver或者ip多次登录，顶象就会启用二次验证(文字点选）**
+ ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210508170417244.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2hhb19xaW8=,size_16,color_FFFFFF,t_70)
+ ****网上虽然有破解教程（YOLO深度学习），但要在ubantu下运行，还要学习很多机器学习（不想成为调参侠）。。。。。
+ 已经没有精力搞了，太难了呀！！！
+ 博主只是一个垃圾二本大二的cs学生。。。****
+ 
+**ps:已经丧失了对AI，计算机图像视觉，AR 的兴趣（数学真的太难了），老老实实搞前后端或者游戏吧**
