@@ -110,11 +110,14 @@ loginbtn.click()  # 点击登录按钮
 
 
 上面代码执行后获取到的图片：
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20210508152234483.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20210508173335326.png)
+
+
 **注意：上面这张图片是png格式，所以有透明通道，待会要把透明部分转化为白色（便于之后模板匹配）** 
 
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20210508152214215.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20210508173300752.png)
+
 
 
 ## **第二步：接着将front.png进行 透明化处理 阈值处理 ，梯度处理，Canny边缘检测**
