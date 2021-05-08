@@ -20,8 +20,11 @@
 
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210508121249913.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2hhb19xaW8=,size_16,color_FFFFFF,t_70)
-首先，咱们先点击 “平台账号登录”按钮
-接着就会弹出下面的登录框
+
+
+首先，咱们先点击 “平台账号登录”按钮接着就会弹出下面的登录框
+
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210508121210433.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2hhb19xaW8=,size_16,color_FFFFFF,t_70)
 
 ```python
