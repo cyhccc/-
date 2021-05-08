@@ -222,6 +222,6 @@ class crackxujc() :
 
 if __name__ == '__main__':
 
- dj = crackxujc('CST19036', '110018')
+ dj = crackxujc('111', 'aaa')
  dj.start()
 
