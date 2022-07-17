@@ -282,23 +282,3 @@ loginbtn.click()  # 点击登录按钮
 
 **还有另一种方法是js逆向（网上有教程），这个方法难点就在逆向，如果能破解出来，就不用用到那么多图片处理，直接模板配就完事了，而且匹配准确率几乎100%  只是顶象的加密方法两天换一次........（已经麻了）**
 
-
-## 附上源码：[记得点小星星哦！！](https://github.com/cyhccc/opencv)
-
-
-***************************
-***************************
-***************************
-*************************
-## 后续：
-  **记录下第一次发表博客！！！**
-  
-  **顶象验证码的破解真的太难了，他还会检测出是否是自动测试化工具（换了pyppeteer，加了很多绕过检测函数，如下图），还有ip定位（用代理也没用）**
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20210508170221736.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2hhb19xaW8=,size_16,color_FFFFFF,t_70)
- **一但检测到webDriver或者ip多次登录，顶象就会启用二次验证(文字点选）**
- ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210508170417244.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2hhb19xaW8=,size_16,color_FFFFFF,t_70)
- ****网上虽然有破解教程（YOLO深度学习），但要在ubantu下运行，还要学习很多机器学习（不想成为调参侠）。。。。。
- 已经没有精力搞了，太难了呀！！！
- 博主只是一个垃圾二本大二的cs学生。。。****
- 
-**ps:已经丧失了对AI，计算机图像视觉，AR 的兴趣（数学真的太难了），老老实实搞前后端或者游戏吧**
